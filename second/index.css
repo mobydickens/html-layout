@@ -1,0 +1,87 @@
+header, main, footer {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+}
+
+.header-box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin: 10px;
+    width: 95%;
+    height: 300px;
+}
+
+.purple {
+    background-color: purple;
+    width: 40px;
+    height: 200px;
+    margin-right: 70px;
+}
+
+.green {
+    background-color: green;
+    width: 500px;
+    height: 250px;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+.circle {
+    border-radius: 50%;
+	width: 245px;
+    height: 245px; 
+    padding-top: 12px;
+    margin-top: 12px;
+    margin-right: 850px;
+    
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, lightskyblue 0%, #4D4DFF 100%, blue 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, lightskyblue, #4D4DFF);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, lightskyblue 0%, #4D4DFF 100%, blue 95%);
+	
+	animation-name: spin; 
+	animation-duration: 3s; /* 3 seconds */
+	animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+    
+}
+
+.dotted-box {
+    border-style: dotted;
+    border-width: 8px;
+    margin: 10px;
+    width: 95%;
+    height: 450px;
+    text-align: center;
+}
+
+.inner {
+    margin: 50px;
+    width: 90%;
+    height: 350px;
+    background-color: #FFFFB2;
+    box-shadow: 10px 15px 15px black;
+}
+
+.friends {
+    border-style: solid;
+    border-color:#E5E5E5;
+    border-width: 1px;
+    margin: 10px;
+    width: 60%;
+    height: 390px;
+    box-shadow: 7px 10px 10px #E5E5E5;
+    color: #191975;
+    font-size: 56px;
+    font-family: 'Notable', sans-serif;
+    text-shadow: 2px 2px 2px #E5E5E5;
+    padding-top: 200px;
+}
